@@ -1,0 +1,166 @@
+body{
+    background-image: url(wee.jpeg); 
+
+  }
+    .web {
+            list-style: none;
+            margin: 0;
+            padding: 1rem;
+            font-family: sans-serif;
+            column-count: 3;
+            column-gap: 3rem;
+            }
+        .pre {
+                display: inline-block;
+                box-shadow: 0 7px 16px #d7e0ea;
+                border-radius: 6px;
+                border-top: 5px solid black;
+                padding: 1rem;
+                margin-bottom: 3rem;
+                border-color: hsl(180, 62%, 55%);
+                transition: width 5s,height 5s;
+                }
+
+            .prec {
+            display: inline-block;
+            box-shadow: 0 7px 16px #d7e0ea;
+            border-radius: 6px;
+            border-top: 5px solid black;
+            padding: 1rem;
+            margin-bottom: 3rem;
+            border-color: hsl(0, 78%, 62%);
+            }
+
+                .preci {
+                display: inline-block;
+                box-shadow: 0 7px 16px #d7e0ea;
+                border-radius: 6px;
+                border-top: 5px solid black;
+                padding: 1rem;
+                margin-bottom: 3rem;
+                border-color: hsl(34, 97%, 64%);
+                }
+
+                    .precio {
+                    display: inline-block;
+                    box-shadow: 0 7px 16px #d7e0ea;
+                    border-radius: 6px;
+                    border-top: 5px solid black;
+                    padding: 1rem;
+                    margin-bottom: 3rem;
+                    border-color: hsl(212, 86%, 64%);
+                    }
+                        .pre:nth-child(3n + 1) {
+                        display: block;
+                        transform: translateY(50%);
+                        }
+                    .prec:nth-child(3n + 1) {
+                    display: block;
+                    transform: translateY(50%);
+                    }
+                    .preci:nth-child(3n + 1) {
+                    display: block;
+                    transform: translateY(50%);
+                    }
+                        .precio:nth-child(3n + 1) {
+                        display: block;
+                        transform: translateY(50%);
+                        }
+                            .icon {
+                            width: 80px;
+                            height: 80px;
+                            text-align: end;  
+                            padding-left: 5cm;        
+                                    }
+                                .pre:hover {
+                                width: 300px;
+                                height: 300px;
+                                        }
+                                                    
+                                  .prec:hover {
+                                    transform: scale(1.15);
+                                    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                                    z-index: 10;
+                                           }
+                                        .preci:hover {
+                                            transform: scale(1.15);
+                                            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                                            z-index: 10;
+                                            }
+
+                                                .precio:hover {
+                                                transform: scale(1.15);
+                                                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                                                z-index: 10;
+                                                }
+                                                          
+                                                    .presh{
+                                                    background-color: white;
+                                                    margin: 1cm 3cm 1cm 3cm;
+                                                    }
+                                                          
+                                                        .pick {
+                                                            font-weight: 200;
+                                                            font-size: 1em;
+                                                            text-align: center;
+                                                            position: relative;
+                                                            left: -100%;
+                                                            padding-top: 10px;
+                                                            animation: anime 2s forwards 1s;
+                                                        }
+                                                        @keyframes anime {
+                                                            from {
+                                                                left:-100%;
+                                                            }
+                                                            to {
+                                                            left: 0%;
+                                                            }
+                                                                                                                        
+                                                        }
+
+                                                            .pick .letter {
+                                                              display: inline-block;
+                                                              line-height: 1em;
+                                                            }
+                                                            .picks {
+                                                              font-weight: 100;
+                                                              font-size: 1em;
+                                                              text-align: center;
+                                                              right: -100%;
+                                                              padding-bottom: 10px;
+                                                              position: relative;
+                                                              animation: anime2 3s forwards 2s;
+                                                            }
+                                                            @keyframes anime2 {
+                                                              from{
+                                                                right:-100%;
+                                                              }
+                                                              to{
+                                                                right: 0%;
+                                                              }
+                                                            }
+                                                            .picks .letter {
+                                                              display: inline-block;
+                                                              line-height: 1em;
+                                                            }
+                                                            .poke {
+                                                              font-weight: 100;
+                                                              font-size: 1em;
+                                                              text-align: center;
+                                                              transition-duration: 4s;
+                                                              left: -100%;
+                                                              position: relative;
+                                                              animation: anime3 4s forwards 2s;
+                                                            }
+                                                            @keyframes anime3 {
+                                                              from{
+                                                                left:-100%;
+                                                              }
+                                                              to{
+                                                                left: 0%;
+                                                              }
+                                                            }
+                                                            .poke .letter {
+                                                              display: inline-block;
+                                                              line-height: 1em;
+                                                            }
